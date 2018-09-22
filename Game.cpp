@@ -149,6 +149,7 @@ void Game::playGame(int roll1, int LRoll1, int roll2, int LRoll2)
  * ***********************************************************************/
 void Game::startMenu()
 {
+	cout << "\n\tDice Wars!\n\n";
 	cout << "Enter 1 to play game" << endl;
 	cout << "Enter 2 to exit" << endl;
 	cin >> choice;
